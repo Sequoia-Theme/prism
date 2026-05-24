@@ -1,0 +1,36 @@
+/* Sequoia Sequoia Retro Dark for Prism.js */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #868690;
+  background: #0f1014;
+}
+.token.comment, .token.prolog, .token.doctype, .token.cdata {
+  color: #43444d;
+  font-style: italic;
+}
+.token.keyword, .token.atrule, .token.tag, .token.selector {
+  color: #648f68;
+}
+.token.string, .token.char, .token.attr-value {
+  color: #da674b;
+}
+.token.function, .token.class-name {
+  color: #829fa7;
+  font-style: italic;
+}
+.token.number, .token.boolean, .token.constant {
+  color: #648f68;
+}
+.token.operator, .token.punctuation {
+  color: #575861;
+}
+.token.variable {
+  color: #a27e57;
+  font-style: italic;
+}
+.token.property, .token.builtin {
+  color: #5c87a4;
+}
+.token.deleted {
+  color: #829fa7;
+}
