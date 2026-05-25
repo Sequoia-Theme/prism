@@ -1,0 +1,36 @@
+/* Sequoia Sequoia Monochrome Light for Prism.js */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #282930;
+  background: #edeef2;
+}
+.token.comment, .token.prolog, .token.doctype, .token.cdata {
+  color: #9da2ad;
+  font-style: italic;
+}
+.token.keyword, .token.atrule, .token.tag, .token.selector {
+  color: #2e3038;
+}
+.token.string, .token.char, .token.attr-value {
+  color: #50535e;
+}
+.token.function, .token.class-name {
+  color: #525666;
+  font-style: italic;
+}
+.token.number, .token.boolean, .token.constant {
+  color: #2e3038;
+}
+.token.operator, .token.punctuation {
+  color: #42434e;
+}
+.token.variable {
+  color: #454752;
+  font-style: italic;
+}
+.token.property, .token.builtin {
+  color: #5f6370;
+}
+.token.deleted {
+  color: #525666;
+}

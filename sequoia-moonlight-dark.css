@@ -1,0 +1,36 @@
+/* Sequoia Sequoia Moonlight Dark for Prism.js */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #868690;
+  background: #0f1014;
+}
+.token.comment, .token.prolog, .token.doctype, .token.cdata {
+  color: #43444d;
+  font-style: italic;
+}
+.token.keyword, .token.atrule, .token.tag, .token.selector {
+  color: #8eb6f5;
+}
+.token.string, .token.char, .token.attr-value {
+  color: #9898a6;
+}
+.token.function, .token.class-name {
+  color: #f58ee0;
+  font-style: italic;
+}
+.token.number, .token.boolean, .token.constant {
+  color: #8eb6f5;
+}
+.token.operator, .token.punctuation {
+  color: #575861;
+}
+.token.variable {
+  color: #ffbb88;
+  font-style: italic;
+}
+.token.property, .token.builtin {
+  color: #c58fff;
+}
+.token.deleted {
+  color: #f58ee0;
+}
